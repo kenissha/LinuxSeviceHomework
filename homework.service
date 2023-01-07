@@ -1,0 +1,10 @@
+[Unit]
+Description=BTVA Homework
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/homework.sh
+
+[Install]
+WantedBy=multi-user.target
+
